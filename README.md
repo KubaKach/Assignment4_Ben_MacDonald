@@ -1,9 +1,11 @@
 This program is used to download audio from youtube videos to your computer, but with the ability to change pitch and tempo.
 This is the link to the GitHub repo: https://github.com/KubaKach/Assignment4_Ben_MacDonald.git
-Run it in a docker container, and then if you are using windows, open powershell and write "docker run -it --rm -v ${PWD}/downloads:/app/downloads audio-manipulator"
-It will ask you for a youtube URL. Paste your desired URL and it will download it, then prompt you with options for
-post-processing. 
 
+Here's the link to the dockerhub repository: https://hub.docker.com/repository/docker/dockingchampion/audio-manipulator/general
+
+If you are using windows, open powershell and write "docker run -it --rm -v ${PWD}/downloads:/app/downloads audio-manipulator"
+It will ask you for a youtube URL. Paste your desired URL and it will download it, then prompt you with options for
+post-processing.
 
 note for Saad:
 This was my 3rd attempt at making a Git repository for this assignment, it didn't go well the first two times. As a result, my 
