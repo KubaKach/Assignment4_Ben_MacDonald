@@ -3,6 +3,8 @@ This is the link to the GitHub repo: https://github.com/KubaKach/Assignment4_Ben
 
 Here's the link to the dockerhub repository: https://hub.docker.com/repository/docker/dockingchampion/audio-manipulator/general
 
+Here is the docker pull command: docker pull dockingchampion/audio-manipulator
+
 If you are using windows, open powershell and write "docker run -it --rm -v ${PWD}/downloads:/app/downloads audio-manipulator"
 It will ask you for a youtube URL. Paste your desired URL and it will download it, then prompt you with options for
 post-processing.
